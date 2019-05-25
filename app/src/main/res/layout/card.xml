@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_height="185dp"
+    android:layout_width="match_parent"
+    android:id="@+id/card"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+         <EditText
+            android:id="@+id/cardViewText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|top"
+            android:typeface="serif"
+            android:textSize="14sp"
+            android:textColor="#2F4F4F"
+            android:hint="record voice for text"
+            android:padding="15dp"
+            android:inputType="textMultiLine"
+            android:textStyle="bold"
+            android:background="@null"/>
+
+         <ImageButton
+            android:id="@+id/mic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_mic_24dp"
+            android:background="@null"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
