@@ -7,5 +7,7 @@ The goal of this application is to save doctors both the time and frustration to
 through the use of speech, and allowing doctors to see more of their patients.
 
 ## Displaying OnRecord
-<img src = "OnRecord1.gif" width = 350>
-<img src = "OnRecord2.gif" width = 350>
+### Activating IBM Watson Speech-to-text resource
+<img src = "OnRecord1.gif" width = 350><br>
+### clicking FAB to create a new card for new Speech-to-Text transcription
+<img src = "OnRecord2.gif" width = 350></img>
